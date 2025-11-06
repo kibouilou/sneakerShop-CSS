@@ -6,6 +6,48 @@ html, body{
    font-family: "Poppins", sans-serif;
 }
 
+nav{
+   display: flex;
+    width: 90%;
+    justify-content: space-around;
+    padding: 16px;
+    margin: 2PX;
+    background: gray;
+    border-radius: 2%;
+    border: solid chocolate;
+    background:white;
+    h3{
+      display: flex;
+    }
+}
+
+.logo-container{
+   display: flex;
+   gap: 2px;;
+}
+ul{
+   
+    display: flex;
+    gap: 5%;
+    border-radius: 10%;
+    list-style: none;
+    color: black;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: flex-end
+}
+.buttons-container div{
+   display: flex;
+   background: blue;
+   text-decoration: none;
+   color:white;
+   border-radius: 8px;
+   width:100%;
+   padding: 2px;;
+   border: 2px solid;
+   transition: all .3s ease-in-out;
+}
 
 
 
