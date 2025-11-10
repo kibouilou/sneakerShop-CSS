@@ -1,66 +1,47 @@
 /* importation de la police 'Poppins' de Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
 
-html, body{
+body{
    display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 56px;
    font-family: "Poppins", sans-serif;
 }
 
-nav{
+.article{
    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-    background: gray;
-    border-radius: 2%;
-    border: solid chocolate;
-    background:white;
-}
-
-.logo-container{
-   display: flex;
-   gap: 2px;
-   height: 40%;
-}
-ul{
-    display: flex;
-    gap: 24px;
-    border-radius: 10%;
-    list-style: none;
-    color: black;
-    flex-wrap: nowrap;
-    align-content: flex-end;
-    align-items: center;
-    justify-content: flex-end;
-}
-ul:hover{
-   display: flex;
-   color: blue;
-
-}
-.buttons-container div{
-   display:flex;
-   background: blue;
-   color:white;
-   box-sizing: border-box;
-   width: fit-content;
-   padding: 2%;
+   background: green;
+   list-style: none;
+   width: 100%;
+   align-items: center;
+   border-radius: 1px;
+   padding: 0;
    margin: 0;
-   gap: 15%;
-   border: 20px solid white;
+   border: 2px solid red;
 }
-.img{
-   display: flex,
-
-
-
-
-   
+ul {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   gap: 15px;
+   border-radius: 100%;
+   align-items: center;
+   font-size: 10px;
+}
+a{
+   display: flex;
+   text-decoration: none;
+   background: blue;
+   width: 20%;
+   border-radius: 1px;
+   border: 2px solid red;
+   font-size: 10px;
+   gap: 15px; ;
+}
+photo {
+   display: flex;
+   width: 10%;
+   height: 10%;
 
 }
-
-
-
-   
